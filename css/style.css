@@ -39,7 +39,7 @@ header .nav-menu ul {
 }
 
 header .nav-menu ul li {
-    padding: 2.1875em;
+    padding: 2rem;
     /* 35px 전환값 */
 }
 
@@ -62,13 +62,13 @@ header .call-menu .call h4 {
     font-family: 'Noto Sans KR';
 }
 
-/* section {
+section {
     width: 90%;
     margin: 0 auto;
 }
 section img {
     width: 100%;
-} */
+}
 
 header .fa-bars {
     font-size: 30px;
@@ -115,7 +115,7 @@ header .fa-bars {
     position: absolute;
     background: url('../image/bg01.png') no-repeat;
     width: 800px;
-    height: 2000px;
+    height: 1000px;
     /* 하단의 스크롤 생기지 않도록 px로 설정함. %로 할 경우 좌우 스크롤이 생김 */
     right: 0;
     top: 550px;
@@ -188,7 +188,7 @@ header .fa-bars {
     width: 1200px;
     height: 2000px;
     /* 하단의 스크롤 생기지 않도록 px로 설정함. %로 할 경우 좌우 스크롤이 생김 */
-    left: 0px;
+    left: 2000px;
     top: 550px;
     z-index: -99;
 }
@@ -598,28 +598,28 @@ footer span {
     font-size: 14px;
 }
 
-/* @media (max-width: 1440px) {
+@media (max-width: 1440px) {
     header .nav-menu ul li {
         padding: 0.8875rem;
         font-size: 16px;
     }
     header .nav-menu ul li a {
-        margin: 30px;
+        margin: 1.875rem;
     }
     .content h1 {
-        font-size: 36px;
+        font-size: 2rem;
     }
-} */
+}
 
 @media (max-width: 1024px) {
 
     /* header 메뉴영역 */
     header .nav-menu ul li {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     header .nav-menu ul li a {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 
     header .call-menu .call h4 {
